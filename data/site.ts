@@ -20,7 +20,7 @@ export const site = {
     role: ' Data & Automation engineer',
     tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
     contact: 'Open to collaborations and senior IC roles on product-minded teams.',
-    avatarSrc: '/favicon.svg',
+    avatarSrc: '/Foto_de_Rafa.jpg',
     avatarAlt: 'Alex Morgan',
   },
   about: {
