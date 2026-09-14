@@ -24,6 +24,7 @@ export const site = {
     avatarAlt: 'Rafael Pelayo',
   },
   about: {
+    heading: 'About',
     paragraphs: [
       'My passion for computer systems began at an early age in my life and inevitably, over time, laid the foundation for becoming my lovely profession. Over the years I have worked with incredible companies and gained solid experience in my field. I see myself as someone who bridges technical expertise with creative problem-solving.',
       'Of course, even beyond, I am motivated to be of great help to innovate, collaborate, and contribute to the team and organizational success.',
