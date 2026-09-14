@@ -24,21 +24,21 @@ export const site = {
     avatarAlt: 'Rafael Pelayo',
   },
   about: {
-    heading: 'About',
     paragraphs: [
-      'My passion for computer systems began at an early age in my life and inevitably, over time, laid the foundation for becoming my lovely profession. Over the years I have worked with incredible companies and gained solid experience in my field. I see myself as someone who bridges technical expertise with creative problem-solving.',
+      'About',
+      'My passion for computer systems began at an early age in my life and inevitably, over time, laid the foundation for becoming my lovely profession. | Over the years I have worked with incredible companies and gained solid experience in my field. I see myself as someone who bridges technical expertise with creative problem-solving.',
       'Of course, even beyond, I am motivated to be of great help to innovate, collaborate, and contribute to the team and organizational success.',
       {
         heading: 'Example focus areas',
         bullets: [
-          'Designing APIs and client boundaries with typed contracts',
-          'Performance budgets, caching, and pragmatic observability',
-          'Shipping incrementally with feature flags and rollback-friendly deploys',
+          'Implement pragmatic solutions for data in the production enviroment.',
+          'Automate data, create and mantain data flow, setup monitoring alerts.',
+          'Design and optimize data pipelines that help clients make better decisions from clean, timely, and scalable data.',
         ],
       },
       {
         heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
+        techItems: ['GCP Cloud', 'BigQuery', 'Bash', 'Python', 'SQL'],
       },
     ],
   },
