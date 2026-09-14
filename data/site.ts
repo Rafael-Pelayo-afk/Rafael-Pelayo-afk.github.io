@@ -21,12 +21,15 @@ export const site = {
     tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
     contact: 'Open to collaborations and senior IC roles on product-minded teams.',
     avatarSrc: '/Foto_de_Rafa.jpg',
-    avatarAlt: 'Alex Morgan',
+    avatarAlt: 'Rafael Pelayo',
   },
   about: {
     paragraphs: [
-      'A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.',
-      'I care about clear boundaries between modules, automated checks in CI, and documentation that helps the next contributor ship safely.',
+      'My passion for computer systems began at an early age in my life and inevitably, over time, laid the foundation for becoming my lovely profession.',
+      'Over the years I have worked with incredible companies and gained solid experience in my field.',
+      'I see myself as someone who bridges technical expertise with creative problem-solving.',
+      'Of course, even beyond, I am motivated to be of great help to innovate, cooperate, and contribute to the team and organizational success.',
+      'I would be happy to collaborate!',
       {
         heading: 'Example focus areas',
         bullets: [
