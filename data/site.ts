@@ -6,6 +6,7 @@
  * Edit these arrays/objects to customize the template content.
  *
  * Replace placeholder images in src/assets/ with your own.
+ * tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
  */
 
 export const site = {
@@ -13,7 +14,7 @@ export const site = {
   meta: {
     title: 'Rafael Pelayo | Data & Automation engineer',
     description:
-      'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
+      'Portfolio: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
     name: 'Rafael Pelayo',
@@ -25,7 +26,7 @@ export const site = {
   },
   about: {
     paragraphs: [
-      'About',
+      'ABOUT >',
       'My passion for computer systems began at an early age in my life and inevitably, over time, laid the foundation for becoming my lovely profession. | Over the years I have worked with incredible companies and gained solid experience in my field. I see myself as someone who bridges technical expertise with creative problem-solving.',
       'Of course, even beyond, I am motivated to be of great help to innovate, collaborate, and contribute to the team and organizational success.',
       {
@@ -37,50 +38,39 @@ export const site = {
         ],
       },
       {
-        heading: 'Sample stack',
+        heading: 'TECHNICAL SKILLS',
         techItems: ['GCP Cloud', 'BigQuery', 'Bash', 'Python', 'SQL'],
       },
     ],
   },
   experiences: [
     {
-      period: '2025',
-      title: 'Lead Product Designer',
-      company: 'Lumen Studio',
+      period: '2021 - 2026',
+      title: 'IT Data Production Support Engineer',
+      company: 'Hexaware Technologies',
       summary:
-        'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
+        'Support to data production systems and applications (on-premise and sas).',
       highlights: [
-        'Designed and shipped the complete website using Astro, Tailwind CSS, and content-driven components',
-        'Crafted consistent responsive layouts and accessible typography across desktop and mobile',
-        'Optimized asset delivery and performance for sub-1s page load metrics',
+        'Support and maintain a centralized structured data repository for company users can query.',
+        'Implement fixes, and track solution to applications or system errors.',
+        'Develop and deploy ETL jobs for load data into production tables Oracle and Datalake in GCP.',
+        'Create and Automate Alerts, Schedule, Monitor and maintain production jobs.',
       ],
-      tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
+      tech: ['GCP', 'BygQuery', 'Python', 'SQL', 'Bash'],
     },
     {
-      period: '2024',
-      title: 'Frontend Architect',
-      company: 'Nova Launch',
+      period: '2017 - 2021',
+      title: 'BI Executive Production Support',
+      company: 'TATA CONSULTANCY SERVICES',
       summary:
-        'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
+        'RTB Support - Bank Production Issues, Support applications in a UNIX environment.',
       highlights: [
-        'Implemented a component-based design system with reusable cards, buttons, and hero sections',
-        'Built content-driven project pages, archive views, and client-side navigation enhancements',
-        'Added cross-browser polish and performance tuning with image optimization and lazy loading',
+        'Analyze production issues, conduct investigation to determine root cause, setup monitoring alerts.',
+        'Investigate data related issues, develop and automate data extractions or develop reports from user requests or requirements.',
+        'Closely work with development team to create and provide fix recommendations.',
+        'Work and Coordinate with upstream teams for new developments and implementations.',
       ],
-      tech: ['Astro', 'TypeScript', 'Tailwind CSS', 'Node', 'Vite'],
-    },
-    {
-      period: '2023',
-      title: 'UI Engineer',
-      company: 'Orbital Creative',
-      summary:
-        'Created an interactive product showcase with a clean visual system and accessible component library.',
-      highlights: [
-        'Built a flexible project card system for content updates without code changes',
-        'Improved brand consistency with typography, color, and motion guidelines',
-        'Added testing and quality checks for cross-device UI fidelity',
-      ],
-      tech: ['Astro', 'Tailwind CSS', 'JavaScript', 'Node', 'Vitest'],
+      tech: ['Bash', 'ITIL', 'SQL'],
     },
   ],
   featuredProjects: [
@@ -136,9 +126,9 @@ export const site = {
     { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
   ],
   contact: {
-    email: 'hello@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
+    email: 'rafikinet18@gmail.com',
+    github: 'https://github.com/Rafael-Pelayo-afk',
+    linkedin: 'https://www.linkedin.com/rafael-pelayo-b606b9147',
   },
 } as const;
 
